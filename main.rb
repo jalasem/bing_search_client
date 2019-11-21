@@ -4,6 +4,7 @@
 
 require 'rest-client'
 
+# class: Bing search class
 class Bing
   def search(input)
     return 'no search term given' unless input
